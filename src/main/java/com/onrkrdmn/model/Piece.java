@@ -9,8 +9,6 @@ import lombok.Setter;
  * @author Onur Karaduman
  * @since 08.04.17
  */
-@Getter
-@Setter
 public class Piece {
     private int id;
 
@@ -28,6 +26,46 @@ public class Piece {
         this.top = top;
         this.bottom = bottom;
         this.id = id;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public Edge getRight() {
+        return right;
+    }
+
+    public void setRight(Edge right) {
+        this.right = right;
+    }
+
+    public Edge getLeft() {
+        return left;
+    }
+
+    public void setLeft(Edge left) {
+        this.left = left;
+    }
+
+    public Edge getTop() {
+        return top;
+    }
+
+    public void setTop(Edge top) {
+        this.top = top;
+    }
+
+    public Edge getBottom() {
+        return bottom;
+    }
+
+    public void setBottom(Edge bottom) {
+        this.bottom = bottom;
     }
 
     /**
