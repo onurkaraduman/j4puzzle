@@ -14,7 +14,6 @@
         <junit.version>4.12</junit.version>
     </properties>
 
-
     <profiles>
         <profile>
             <id>Source-Configuration1</id>
